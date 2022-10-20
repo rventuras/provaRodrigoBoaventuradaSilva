@@ -1,0 +1,5 @@
+#include <stdio.h>
+int main (){
+	printf ("Disciplina: Agoritimo e programacao\nNome da professora: Joyce Siqueira\nNome do aluno: Rodrigo Boaventura\nMatricula: UC22103134\nCurso: Ciencia da Computacao\nGit: https://github.com/rventuras/provaRodrigoBoaventura\nSoftware: Devc++");
+	
+}
