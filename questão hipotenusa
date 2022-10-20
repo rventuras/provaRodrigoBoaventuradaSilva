@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <math.h>
+int main (){
+	int a, b, co, ca;
+	float seno,h4,h;
+	printf("De o valor A e B: ");
+	scanf ("%d%d", &a, &b);
+	co = pow(a,2);
+	ca = pow(b,2);
+	printf ("cateto oposto eh %d e cateto adjascente eh %d", co, ca);
+	h = co + ca;
+	h4 = sqrt (h);
+	printf ("\nHipotenusa eh igual a %.3f", h4);
+	seno = co / h4;
+	printf ("\nSeno eh %f", seno);
+    
+}
