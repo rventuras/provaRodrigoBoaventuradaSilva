@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>
+int main (){
+	int a, b, co, ca, h;
+	double h2;
+	printf("De o valor A e B: ");
+	scanf ("%d%d", &a, &b);
+	co = pow(a,2);
+	ca = pow(b,2);
+	printf ("cateto oposto eh %d e cateto adjascente eh %d", co, ca);
+	h = co + ca;
+	h2 = pow(h,2);
+	printf ("\nHipotenusa eh igual a %lf", h2);
+    
+}
